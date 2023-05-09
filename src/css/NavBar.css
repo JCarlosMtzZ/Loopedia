@@ -1,0 +1,70 @@
+.navBar{
+    width: 100vw;
+    height: 8vh;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.navBar ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.title{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.25s;
+}
+
+.link{
+    padding: 0.25rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: lightgray;
+    transition: 0.25s;
+}
+
+.navBar li.active {
+    background-color: #242424;
+}
+.title:hover{
+    color: lightgray;
+}
+.link:hover{
+    color: white;
+}
+
+.signOut {
+    align-self: center;
+    margin-left: auto;
+    margin-right: 20px;
+    transition: 0.25s;
+    font-size: 1rem;
+    text-decoration: none;
+    color: lightgray;
+    transition: 0.25s;
+}
+
+.signOut:hover {
+    color: white;
+}
+
+.logoutIcon {
+    align-self: center;
+    margin-left: auto;
+    margin-right: 10px;
+    transition: 0.25s;
+}
+
+.logoutIcon:hover {
+    fill: lightgray;
+    stroke: lightgrey;
+}

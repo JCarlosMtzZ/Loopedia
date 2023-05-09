@@ -1,0 +1,108 @@
+.home {
+    display: flex;
+    height: 92vh;
+    width: 100vw;
+}
+
+.feed {
+    width: 70vw;
+    height: 92vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    padding-left: 1vw;
+}
+
+.userNotes {
+    width: 30vw;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.notesTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 10vh;
+    width: 22.5vw;
+    font-size: 2.25rem;
+    border-radius: 4px;
+}
+
+.cardContainer {
+    height: 70vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 22.5vw;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    border-radius: 4px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+.cardTitle {
+    font-size: 1.25rem;
+    width: 20.5vw;
+    height: 5vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    overflow-y: auto;
+}
+
+.cardContent {
+    overflow-wrap: break-word;
+    font-size: 0.9rem;
+    width: 20.5vw;
+    height: 11vh;
+    margin-bottom: 1vh;
+    overflow-y: auto;
+}
+
+.loader-container-home {
+    width: 14vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner-home {
+    width: 15px;
+    height: 15px;
+    border: 2px solid;
+    border-color: black transparent black transparent;
+    border-radius: 50%;
+    animation: spin-anim 1.2s linear infinite;
+}
+
+@keyframes spin-anim {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+

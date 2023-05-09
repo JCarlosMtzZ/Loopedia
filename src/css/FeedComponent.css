@@ -1,0 +1,49 @@
+.feedDiv{
+    justify-content: center;
+    margin-top: 1rem;
+    margin-left: 5vw;
+}
+.link{
+    text-decoration: none;
+}
+.feedComponent {
+    width: 65vw;
+    height: 22.5vh;
+    display: flex;
+    gap: 1vw;
+    color: #464646;
+    background-color: #e3e3e3;
+    overflow: hidden;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 4px;
+}
+.feedComponent:hover{
+    transform: scale(1.04);
+    background-color: #efefef;
+    color: #000000;
+}
+.feedComponent img{
+    display: flex;
+    width: 20vw;
+    height: 20vh;
+    border-radius: 10vw 1vw 1vw 1vw;
+    margin-right: -1vw;
+}
+
+.feedCTitle{
+    display: flex;
+    font-size: 1.5rem;
+    width: 30vw;
+}
+
+.description{
+    display: block;
+    height: 8.75vh;
+    max-width: 40vw;
+    font-size: 1rem;
+    overflow: hidden;
+}

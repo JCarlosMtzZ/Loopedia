@@ -1,0 +1,11 @@
+.logoutIcon {
+    align-self: center;
+    margin-left: auto;
+    margin-right: 10px;
+    transition: 0.25s;
+}
+
+.logoutIcon:hover {
+    fill: lightgray;
+    stroke: lightgrey;
+}

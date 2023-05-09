@@ -1,0 +1,47 @@
+.science {
+    height: 92vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+    background: radial-gradient(ellipse at bottom, #aeb0b7 0%, #000000 100%);
+}
+.Title{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.Title h1{
+    color:darkblue;
+    z-index: 10;
+    font-size: 2rem;
+}
+.Title h2{
+    color: #7d3f3f;
+    z-index: 10;
+    font-size: 1rem;
+}
+
+    
+.Poster{
+    width: 50vw; 
+}
+.Contenido{
+    height: 265px;
+    width: 40vw;
+    font-size: 1.95vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    float: right;
+}
+.science-background{
+    background-color: green;
+    height: 92vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
