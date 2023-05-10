@@ -1,5 +1,5 @@
 # Loopedia
-This Web App is an interactive encyclopedia, built in React JS.
+This Web App is an interactive encyclopedia, built in React JS. Uses a Firebase database.
 
 ### Objectives:
 - Show interactive and stylized information.
